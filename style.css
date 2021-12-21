@@ -1,0 +1,68 @@
+body{
+    background-image:url("background.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.note{
+    color:red;
+    font-size:20px;
+}
+#header{
+    background:orange;
+    width:100%;
+margin:0px;
+animation-name:example;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+@keyframes example{
+50%{font-size:52px;}
+}
+canvas{
+    border:5px red ridge;
+    border-radius:10px;
+    animation-name:shadow;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes shadow{
+    0%{box-shadow:3px 3px 38px red;}
+    25%{box-shadow:3px 3px 38px blue;}
+    50%{box-shadow:3px 3px 38px green;}
+   75%{box-shadow:3px 3px 38px yellow;}
+   100%{box-shadow:3px 3px 38px purple;}
+}
+.div_speed{
+    float:left;
+}
+#speed{
+    
+    border-radius:100px;
+    width:200px;
+}
+.div_volume{
+float:right;
+}
+#volume{
+    
+    border-radius:100px;
+    width:200px;
+}
+#velocity{
+    
+    font-size:20px;
+}
+#vol{
+   
+  
+    font-size:20px;
+}
+#song{
+    font-size:20px;
+    border-radius:10px;
+}
+#stop{
+    font-size:20px;
+    border-radius:10px;
+    margin-left:20px;
+}
